@@ -15,7 +15,7 @@ if(G5_COMMUNITY_USE === false) {
 include_once(G5_THEME_PATH.'/head.php');
 ?>
 
-여기에 나의 홈페이지 main
+나는 메인페이지.
 
 <?php
 include_once(G5_THEME_PATH.'/tail.php');
