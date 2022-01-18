@@ -1,0 +1,64 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+figure {margin:0;padding:0;}
+address {font-style:normal;}
+
+.wrap {min-width:1900px;}
+
+.container {display:flex;width:1200px;margin:0 auto;padding:0 15px;}
+
+.hd_top {font-size:13px;font-weight:300;line-height:2;border-bottom:1px solid #ced4da;}
+.hd_top .container {justify-content:space-between;}
+
+.hd {line-height:60px;border-bottom:1px solid #ced4da;}
+.hd .gnb {margin-left:auto;}
+.hd .gnb ul {display:flex;gap:60px;font-size:18px;}
+.hd .gnb ul>li>a {display:block;}
+
+.main {position:relative;}
+.main .m_slide figure {height:700px;}
+.main .m_slide .itm01 {background:url(../img/main_visual01.jpg) no-repeat center center/cover;}
+.main .m_slide .itm02 {background:url(../img/main_visual02.jpg) no-repeat center center/cover;}
+.main .m_slide .itm03 {background:url(../img/main_visual03.jpg) no-repeat center center/cover;}
+
+.main .slogan {position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);width:1200px;color:#f8f9fa;}
+.main .slogan h2 {font-size:50px;margin-bottom:30px;text-shadow:5px 5px 5px rgba(0,0,0,0.4), 10px 10px 10px rgba(0,0,0,0.2);}
+.main .slogan p {font-size:17px;text-shadow:5px 5px 5px rgba(0,0,0,0.4), 10px 10px 10px rgba(0,0,0,0.2);}
+
+.customer {padding:80px 0;}
+.customer .container {width:1230px;padding:0;}
+.customer .container>div {flex:1;padding:0 30px;}
+.customer .container>div~div {border-left:1px solid #ced4da;}
+.customer h3 {font-size:20px;font-weight:300;border-bottom:1px solid #ced4da;margin-bottom:20px;line-height:40px;}
+.customer h3 a {float:right;display:block;color:#333;}
+
+.customer .rt {position:relative;text-align:right;}
+.customer .rt strong {display:block;font-size:35px;font-weight:700;padding-top:80px;margin-bottom:20px;}
+.customer .rt a {display:block;}
+.customer .rt i {position:absolute;top:20px;right:30px;font-size:30px;padding:10px;background:#ced4da;border-radius:50%;line-height:1;width:50px;height:50px;text-align:center;}
+
+.footer {font-size:15px;padding:40px 0;border-top:1px solid #ced4da;text-align:center;background:#333;color:#fff;}
+
+.footer ul {width:600px;margin:0 auto;}
+.footer ul li {display:inline-block;line-height:1.6;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

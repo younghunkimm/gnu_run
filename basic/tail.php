@@ -12,7 +12,20 @@ if(G5_COMMUNITY_USE === false) {
 }
 ?>
 
-나는 테일.
+           <footer class="footer">
+                <address>
+                    <ul>
+                        <li>서울특별시 마포구 월드컵북로 402 23층 (상암동, KGIT센터)</li>
+                        <li>사업자등록번호 : 137-81-07814</li>
+                        <li>대표번호 : 02)6355-6100</li>
+                        <li>FAX : 02)325-9459</li>
+                        <li>COPYRIGHT © 2019 DONGJIN SEMICHEM CO LTD. ALL RIGHTS RESERVED.</li>
+                    </ul>
+                </address>
+            </footer>
+        </div>
+        <script src="<?php echo G5_THEME_URL ?>/js/slick.min.js"></script>
+        <script src="<?php echo G5_THEME_URL ?>/js/main.js"></script>
     
     <button type="button" id="top_btn">
     	<i class="fa fa-arrow-up" aria-hidden="true"></i><span class="sound_only">상단으로</span>

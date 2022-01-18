@@ -25,4 +25,34 @@ if(defined('_INDEX_')) { // index에서만 실행
 }
 ?>
 
-나는 헤더.
+<div class="wrap">
+    <header class="header">
+        <div class="hd_top">
+            <div class="container">
+                <div class="left">동진쎄미켐은 반도체 및 디스플레이용 재료, 대체에너지(Li-ion rechargeable batteries, fuel cells)용 재료와 발포제를 제조 판매하는 회사입니다.</div>
+                <div class="right">
+                    <a href="/bbs/login.php">
+                        <i class="fa fa-user-o" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hd">
+            <div class="container">
+                <h1>
+                    <a href="/">
+                        <img src="<?php echo G5_THEME_URL ?>/img/h1_logo.jpg" alt="">
+                    </a>
+                </h1>
+                <nav class="gnb">
+                    <ul>
+                        <li><a href="#!">회사소개</a></li>
+                        <li><a href="#!">사업분야</a></li>
+                        <li><a href="#!">지속가능경영</a></li>
+                        <li><a href="#!">IR/PR</a></li>
+                        <li><a href="/bbs/board.php?bo_table=qa">고객문의</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
