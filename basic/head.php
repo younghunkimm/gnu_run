@@ -29,7 +29,8 @@ if(defined('_INDEX_')) { // index에서만 실행
     <header class="header">
         <div class="hd_top">
             <div class="container">
-                <div class="left">동진쎄미켐은 반도체 및 디스플레이용 재료, 대체에너지(Li-ion rechargeable batteries, fuel cells)용 재료와 발포제를 제조 판매하는 회사입니다.</div>
+                <div class="left">동진쎄미켐은 반도체 및 디스플레이용 재료, 대체에너지(Li-ion rechargeable batteries, fuel cells)용 재료와 발포제를 제조
+                    판매하는 회사입니다.</div>
                 <div class="right">
                     <a href="/bbs/login.php">
                         <i class="fa fa-user-o" aria-hidden="true"></i>
@@ -56,3 +57,9 @@ if(defined('_INDEX_')) { // index에서만 실행
             </div>
         </div>
     </header>
+
+<?php
+    if(!defined('_INDEX_')) { // index 아닐 때 실행
+        include_once(G5_THEME_PATH.'/head-d.php');
+    }
+?>

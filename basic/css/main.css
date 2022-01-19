@@ -25,6 +25,14 @@ address {font-style:normal;}
 .main .slogan h2 {font-size:50px;margin-bottom:30px;text-shadow:5px 5px 5px rgba(0,0,0,0.4), 10px 10px 10px rgba(0,0,0,0.2);}
 .main .slogan p {font-size:17px;text-shadow:5px 5px 5px rgba(0,0,0,0.4), 10px 10px 10px rgba(0,0,0,0.2);}
 
+.sub_title {position:relative;height:400px;background:url(../img/sub_title_bg.jpg) no-repeat center center/cover;}
+.sub_title .txt {position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);width:100%;}
+.sub_title .txt h2 {text-align:center;font-size:40px;font-weight:900;color:#fff;}
+
+
+.sub_detail {padding:100px 0;}
+
+
 .customer {padding:80px 0;}
 .customer .container {width:1230px;padding:0;}
 .customer .container>div {flex:1;padding:0 30px;}
@@ -36,6 +44,9 @@ address {font-style:normal;}
 .customer .rt strong {display:block;font-size:35px;font-weight:700;padding-top:80px;margin-bottom:20px;}
 .customer .rt a {display:block;}
 .customer .rt i {position:absolute;top:20px;right:30px;font-size:30px;padding:10px;background:#ced4da;border-radius:50%;line-height:1;width:50px;height:50px;text-align:center;}
+
+.customer .lt .basic_li {line-height:40px;font-size:15px;border-bottom:1px solid #eee;}
+.customer .lt .basic_li span {float:right;font-size:13px;color:#555;}
 
 .footer {font-size:15px;padding:40px 0;border-top:1px solid #ced4da;text-align:center;background:#333;color:#fff;}
 
