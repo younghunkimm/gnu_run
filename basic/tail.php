@@ -37,6 +37,9 @@ if(G5_COMMUNITY_USE === false) {
     <i class="fa fa-arrow-up" aria-hidden="true"></i><span class="sound_only">상단으로</span>
 </button>
 <script>
+var pageNum = <?=$num?>;
+$('aside li').eq(pageNum - 1).addClass('on');
+
 $(function() {
     $("#top_btn").on("click", function() {
         $("html, body").animate({
