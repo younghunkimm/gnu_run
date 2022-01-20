@@ -3,6 +3,7 @@ include_once('../../../common.php');
 $c_title = '사업분야';
 $title = '발포제';
 $num = 2;
+$bgnum = 2;
 include_once(G5_THEME_PATH.'/head.php');
 ?>
 

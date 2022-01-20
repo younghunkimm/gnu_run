@@ -3,6 +3,7 @@ include_once('../../../common.php');
 $title = 'CEO인사말';
 $c_title = '회사소개';
 $num = 1;
+$bgnum = 1;
 include_once(G5_THEME_PATH.'/head.php');
 ?>
 
